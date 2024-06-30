@@ -32,7 +32,7 @@ This project is a dashboard for Grazioso Salvare to manage and filter animal dat
    ```bash
    mongoimport --username=${MONGO_USER} --password=${MONGO_PASS} --port=${MONGO_PORT} --host=${MONGO_HOST} --db AAC --collection animals --authenticationDatabase admin --drop --type csv --headerline ./aac_shelter_outcomes.csv
 
-2. **Run the Dashboard:
+2. **Run the Dashboard:**
    Open the ProjectTwoDashboard.ipynb file in Jupyter Notebook and run all cells.
 
 ## Reflection
